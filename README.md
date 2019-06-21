@@ -6,7 +6,6 @@ https://github.com/cabo/cbor-diag
 ### CBOR >> Diagnostic Notation
 <code>$ cbor2diag.rb server.dat > server.diag</code>
 
-
 ### Diagnostic Notation >> CBOR
 <code>$ diag2cbor.rb server.diag > server.dat</code>
 
@@ -14,9 +13,7 @@ https://github.com/cabo/cbor-diag
 http://cbor.me/
 
 ### CBOR >> Hexdump (byte)
-<code>$ xxd -p server.dat > server.hex</code>
+<code>$ cbor2pretty.rb server.dat > server.hex</code> / <code>$ xxd -p server.dat > server.hex</code>
 
 ### Hexdump (byte) >> CBOR
-<code>$ xxd -r -p server.hex > server.dat</code>
-
-
+<code>$ pretty2cbor.rb server.hex > server.dat</code> / <code>$ xxd -r -p server.hex > server.dat</code>
