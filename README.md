@@ -1,4 +1,4 @@
-# tizen-iotivity
+# Iotivity for Tizen (Iotcon)
 
 ### Recomended tool to use:
 https://github.com/cabo/cbor-diag
