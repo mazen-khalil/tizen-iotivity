@@ -4,16 +4,16 @@
 https://github.com/cabo/cbor-diag
 
 ### CBOR >> Diagnostic Notation
-<code>$ cbor2diag.rb server.dat > server.diag</code>
+``$ cbor2diag.rb server.dat > server.diag``
 
 ### Diagnostic Notation >> CBOR
-<code>$ diag2cbor.rb server.diag > server.dat</code>
+``$ diag2cbor.rb server.diag > server.dat``
 
 ### To validate and convert between Diagnostic Notation and hexdump (byte)
 http://cbor.me/
 
 ### CBOR >> Hexdump (byte)
-<code>$ cbor2pretty.rb server.dat > server.hex</code> / <code>$ xxd -p server.dat > server.hex</code>
+``$ cbor2pretty.rb server.dat > server.hex`` / ``$ xxd -p server.dat > server.hex``
 
 ### Hexdump (byte) >> CBOR
-<code>$ pretty2cbor.rb server.hex > server.dat</code> / <code>$ xxd -r -p server.hex > server.dat</code>
+``$ pretty2cbor.rb server.hex > server.dat`` / ``$ xxd -r -p server.hex > server.dat``
